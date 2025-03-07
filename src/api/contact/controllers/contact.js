@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * bb controller
+ * contact controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::bb.bb');
+module.exports = createCoreController('api::contact.contact');

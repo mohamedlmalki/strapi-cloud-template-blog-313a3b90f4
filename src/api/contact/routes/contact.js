@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * bb router
+ * contact router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::bb.bb');
+module.exports = createCoreRouter('api::contact.contact');
