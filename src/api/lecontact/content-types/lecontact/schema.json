@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lecontacts",
+  "info": {
+    "singularName": "lecontact",
+    "pluralName": "lecontacts",
+    "displayName": "lecontact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
